@@ -1,0 +1,21 @@
+# Weekly update PRs for npm dependencies and pinned GitHub Actions.
+# New releases wait 7 days before a PR is opened (supply-chain cooldown).
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
+    commit-message:
+      prefix: chore
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
+    commit-message:
+      prefix: chore
