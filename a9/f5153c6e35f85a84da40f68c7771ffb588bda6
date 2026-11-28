@@ -1,0 +1,19 @@
+src/pages/index.astro
+  s_7c87a97d82a980::t_f3f7f90140edd7 14,16
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "a9f5153c6e35f85a84da40f68c7771ffb588bda6",
+  "prompts": {},
+  "sessions": {
+    "s_7c87a97d82a980": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ddec64fb0ffeySn2JivciBkUAz",
+        "model": "deepseek/deepseek-v4.1-flash"
+      },
+      "human_author": "Miguel Angel Acevedo <acevedomiguel@gmail.com>"
+    }
+  }
+}
